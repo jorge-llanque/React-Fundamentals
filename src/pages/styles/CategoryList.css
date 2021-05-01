@@ -1,0 +1,33 @@
+.Categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Categories h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Categories__card {
+    width: 130px;
+    height: 80px;
+    margin: 5px;
+    background-color: violet;
+    border: 3px solid #000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.Categories__card h2 {
+    font-size: 15px;
+    text-align: center;
+}
+.Categories__card-button {
+    margin: 10px auto;
+    width: 90px;
+    height: 25px;
+    text-align: center;
+    background-color: yellowgreen;
+    text-decoration: none;
+}
