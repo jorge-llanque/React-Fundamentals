@@ -17,6 +17,18 @@ export default function Navbar() {
         <li>
           <NavLink to="/contact" activeClassName="active" >Contact</NavLink>
         </li>
+        <li>
+          <NavLink to="/login" activeClassName="active" >Login</NavLink>
+        </li>
+        <li>
+          <NavLink to="/register" activeClassName="active" >Register</NavLink>
+        </li>
+        <li>
+          <NavLink to="/dashboard" activeClassName="active" >Dashboard</NavLink>
+        </li>
+        <li>
+          <NavLink to="/payments" activeClassName="active" >Payments</NavLink>
+        </li>
       </ul>
     </div>
   )
